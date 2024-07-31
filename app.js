@@ -1,1 +1,2 @@
-document.body.children[1].children[0].href = "https://google.com"
+let anchorElement = document.querySelector("p a")
+anchorElement.href = "https://google.com"
