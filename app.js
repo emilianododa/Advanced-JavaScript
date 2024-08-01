@@ -10,3 +10,8 @@ newElement.textContent = "pinterest"
 let firstParagraph = document.querySelector("p")
 
 firstParagraph.append(newElement)
+
+
+let firstH1Element = document.querySelector("h1")
+
+firstH1Element.remove()
